@@ -8,8 +8,9 @@ let replaceImages = () => {
 
 document.onDOMContentLoaded = replaceImages();
 
+
 window.addEventListener("scroll", ()=>{
-    //add background script?
-    console.log("hello")
     setTimeout(replaceImages, 500);
 })
+
+
